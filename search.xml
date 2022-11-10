@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<search> 
+  
+  
+    
+    <entry>
+      <title>hexo指令</title>
+      <link href="/post/9e43dbe9.html"/>
+      <url>/post/9e43dbe9.html</url>
+      
+        <content type="html"><![CDATA[<p><strong>0）一键三连</strong></p><p>hexo cl &amp;&amp; hexo g  &amp;&amp; hexo s</p><h4 id="1）hexo-g或hexo-generate"><a href="#1）hexo-g或hexo-generate" class="headerlink" title="1）hexo g或hexo generate"></a>1）<code>hexo g</code>或<code>hexo generate</code></h4><p>该命令执行后在hexo站点<a href="https://so.csdn.net/so/search?q=%E6%A0%B9%E7%9B%AE%E5%BD%95&amp;spm=1001.2101.3001.7020">根目录</a>下生成public文件夹</p><h4 id="2）hexo-clean"><a href="#2）hexo-clean" class="headerlink" title="2）hexo clean"></a>2）<code>hexo clean</code></h4><p>把（1）中的<code>public</code>文件夹删除</p><h4 id="3）hexo-s或hexo-server"><a href="#3）hexo-s或hexo-server" class="headerlink" title="3）hexo s或hexo server"></a>3）<code>hexo s</code>或<code>hexo server</code></h4><p>启动服务，默认地址为<a href="http://localhost:4000/%EF%BC%8C4000%E7%AB%AF%E5%8F%A3">http://localhost:4000/，4000端口</a></p><h4 id="4）hexo-d或hexo-deploy"><a href="#4）hexo-d或hexo-deploy" class="headerlink" title="4）hexo d或hexo deploy"></a>4）<code>hexo d</code>或<code>hexo deploy</code></h4><p>部署站点，在本地生成<code>.deploy_git</code>文件夹，并将编译后的文件上传至 GitHub。</p><h4 id="5）hexo-new-layout-lt-title-gt"><a href="#5）hexo-new-layout-lt-title-gt" class="headerlink" title="5）hexo new [layout] <title>"></a>5）<code>hexo new [layout] &lt;title&gt;</code></h4><p>例如： <code>hexo new photo “my-first-blog”</code><br> 上述指令执行时，Hexo 会尝试在 scaffolds 中寻找photo.md布局，若找到，则根据该布局新建文章；若未找到或指令中未指定该参数，则使用post.md新建文章。新建文章的名称在_config.yml中配置。</p><h4 id="6）删除文章"><a href="#6）删除文章" class="headerlink" title="6）删除文章"></a>6）删除文章</h4><p>只需在本地把<code>source/_posts</code>文件夹下的文章源文件删除后，执行以下命令重新部署即可。</p><h4 id="7）备份-x2F-迁移你的Hexo博客"><a href="#7）备份-x2F-迁移你的Hexo博客" class="headerlink" title="7）备份/迁移你的Hexo博客"></a>7）备份/迁移你的Hexo博客</h4><p>**8）hexo init [folder]**初始化</p><p><strong>9）hexo deploy</strong> 部署</p>]]></content>
+      
+      
+      
+    </entry>
+    
+    
+  
+  
+</search>
